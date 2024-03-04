@@ -16,9 +16,19 @@ fn main() {
 
     // tuples
 
-    let tuple = ("Praash", 19, "Varma");
-    println!("{}", tuple.0);
-    println!("{}", tuple.1);
-    println!("{}", tuple.2);
-    println!("{:?}", tuple);
+    // let tuple = ("Praash", 19, "Varma");
+    // println!("{}", tuple.0);
+    // println!("{}", tuple.1);
+    // println!("{}", tuple.2);
+    // println!("{:?}", tuple);
+
+
+    // Arrays and Slice
+
+    let arr = [0,1,2, 3, 4];
+    let slice = &arr[1..3];
+    println!("{:?}", arr);
+    println!("{:?}", slice);
+
+
 }
